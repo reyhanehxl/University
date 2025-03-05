@@ -16,18 +16,18 @@ public class Main {
 
         Person p1 = new Person("HashMat", "333");
         Person p2 = new Person("HashPat", "666");
-        Person p3 = new Person("HashZat", "999");
+        Person p3 = new Person("HasRat", "999");
         Person p4 = new Person("Dr. DOC1", "321");
         Person p5 = new Person("Dr. DOC2", "123");
 
-        Student s1 = new Student(1, 2023, major1.id);
-        Student s2 = new Student(2, 2023, major1.id);
-        Student s3 = new Student(3, 2023, major2.id);
+        Student s1 = new Student(1, 403, major1.id);
+        Student s2 = new Student(2, 403, major1.id);
+        Student s3 = new Student(3, 403, major2.id);
 
         System.out.println("Students:");
-        System.out.println(p1.name + " - Student ID: " + s1.id);
-        System.out.println(p2.name + " - Student ID: " + s2.id);
-        System.out.println(p3.name + " - Student ID: " + s3.id);
+        System.out.println(p1.name + " - Student ID: " + s1.studentID);
+        System.out.println(p2.name + " - Student ID: " + s2.studentID);
+        System.out.println(p3.name + " - Student ID: " + s3.studentID);
 
         Professor prof1 = new Professor(4, major1.id);
         Professor prof2 = new Professor(5, major2.id);
